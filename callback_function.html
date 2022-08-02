@@ -80,7 +80,7 @@
             subject : "Digital Electronics"
         }
         function herSelf(she, anotherCall){
-            console.log(she.name);
+            console.log("Name is: " +she.name);
             if (she.semester >= "3rd") {
                 anotherCall(she.subject);
             } else {
@@ -97,7 +97,7 @@
             calculate(addition);
         }
         sum(10, 20, function(addition){
-            console.log(addition);
+            console.log("Summation is: " + addition);
         });
         
 
